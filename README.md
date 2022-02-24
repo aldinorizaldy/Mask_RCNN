@@ -6,11 +6,18 @@ Pada folder Samples/Bangunan:
 Untuk training:
 python3 bangunan.py train --dataset=/path/to/dataset --weights=coco
 
+Training data berisi images dan labels. Labels dalam bentuk anotasi hasil generate format Arcgispro.
+
 Untuk inference:
 inference.ipynb
 
 Contoh Hasil deteksi bangunan dari foto udara
 ![](assets/contoh_hasil.JPG)
+
+Link google colab:
+Training: https://colab.research.google.com/drive/1sjm0A-GWwSH5MIxKUTrNDEBDX8ZQsvas?usp=sharing
+Inference: https://colab.research.google.com/drive/1emOAoETZ8rB971U1hSjUUTJkbLgz6Cne?usp=sharing
+Pre-trained weight di dataset Surabaya: https://drive.google.com/file/d/1nOLTq83kzP28aV6hqwvNVfBPcn5PNXpw/view?usp=sharing
 
 # Mask R-CNN for Object Detection and Segmentation
 
