@@ -1,0 +1,3 @@
+# Training data dan validation data berisi images dan labels
+# Labels adalah image anotasi hasil dari Export Training Data for Deep Learning di Arcgispro
+# Modifikasi label apabila menggunakan anotasi format lain
