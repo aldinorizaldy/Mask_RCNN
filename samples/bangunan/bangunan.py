@@ -194,7 +194,7 @@ def train(model):
     print("Training network heads")
     model.train(dataset_train, dataset_val,
                 learning_rate=config.LEARNING_RATE,
-                epochs=2,
+                epochs=args.epoch,
                 layers='heads')
 
 
@@ -299,6 +299,9 @@ if __name__ == '__main__':
     parser.add_argument('--video', required=False,
                         metavar="path or URL to video",
                         help='Video to apply the color splash effect on')
+    parser.add_argument('--epoch',required=True,
+                        metavar="10",
+                        help='The number of epochs for training')
     args = parser.parse_args()
 
     # Validate arguments
