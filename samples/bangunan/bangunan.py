@@ -5,7 +5,7 @@ Train on PPRT dataset and implement building detection.
 Modified by Aldino
 
     # Train a new model starting from pre-trained COCO weights
-    python3 bangunan.py train --dataset=/path/to/dataset --weights=coco
+    python3 bangunan.py train --dataset=/path/to/dataset --weights=coco --epoch=10
 
 -----------------------------------------------------------
 
