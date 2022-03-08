@@ -142,7 +142,7 @@ class BangunanDataset(utils.Dataset):
         else:
             n_mask_count = np.max(m[:,:])
             n_mask = n_mask + n_mask_count
-        mask = np.zeros((m.shape[0],m.shape[1],n_mask.astype(np.int)))
+        mask = np.zeros((m.shape[0],m.shape[1],n_mask.astype(np.int32)))
         
         n = 0
         if n_channel > 1:
