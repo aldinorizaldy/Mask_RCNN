@@ -4,7 +4,7 @@ Modifikasi oleh Aldino Rizaldy
 Pada folder Samples/Bangunan:
 
 Untuk training:
-python3 bangunan.py train --dataset=/path/to/dataset --weights=coco
+python3 bangunan.py train --dataset=/path/to/dataset --weights=coco --epoch=10
 
 Training data berisi images dan labels. Labels dalam bentuk anotasi hasil generate format Arcgispro.
 
